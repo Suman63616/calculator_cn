@@ -6,7 +6,7 @@ import { useState } from "react"
 function App() {
 
 
-      let [input, setInput] = useState("")
+      let [input, setInput] = useState("0")
       function handleClick(value) {
 
             setInput(input + value)
